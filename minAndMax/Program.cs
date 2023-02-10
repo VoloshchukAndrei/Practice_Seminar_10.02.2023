@@ -4,9 +4,9 @@ Console.Write("Введите второе число: ");
 int numberB = int.Parse(Console.ReadLine()!);
 if (numberA > numberB)
 {
-    Console.Write("Минимальное число: " + numberA + "Максимальное число: " + numberB);
+    Console.WriteLine("Минимальное число: " + numberB +", " + "Максимальное число: " + numberA);
 }
 else
 {
-    Console.Write("Минимальное число: " + numberB + "Максимальное число: " + numberA);
+    Console.WriteLine("Минимальное число: " + numberA +", " + "Максимальное число: " + numberB);
 }
